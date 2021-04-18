@@ -1,0 +1,23 @@
+body {
+  position: relative;
+}
+
+#pointer {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border: solid 1px #000000;
+  border-radius: 50%;
+  z-index: 2;
+  opacity: 1;
+  margin: 10px 0 0 10px;
+}
+
+#star {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  opacity: 0;
+  margin: 10px 0 0 10px;
+}
